@@ -15,23 +15,24 @@ body {
 	justify-content: space-between;
 	flex-direction: column;
 }
+
 header, main, footer{
 	max-height: 100% !important;
 }
 
-nav, .container, .container > li{
+.menu, .container, .container > li{
 	display: flex;
 	align-items: center;
 }
 
-nav, button{
+.menu, button{
 	font-family: "Liberato Sans", sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	color: rgba(0, 0, 0, 0.1);
 }
 
-nav{
+.menu{
 	justify-content: space-between;
 }
 
