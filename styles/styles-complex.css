@@ -1,0 +1,105 @@
+body {
+	justify-content: flex-start;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: initial;
+	justify-content: initial;
+}
+
+#logo {
+	width: 12%;
+}
+#searched {
+	margin-left: 60px;
+}
+.padded {
+	margin-left: 210px;
+}
+#search-options {
+	justify-content: flex-start;
+}
+#search-options, #search-options li{
+	display: flex;
+}
+
+#search-options li:not(:first-child){
+	margin-left: 20px;
+}
+
+#search-options li{
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(0,0,0,0);	
+}
+/*
+#search-options li:hover{
+	padding-bottom: 10px;
+	border-bottom: 1px solid red;
+}*/
+
+#search-options a {
+	font-family: "Liberato Sans", sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	color: gray;
+}
+
+#search-options [active]{
+	border-radius: 5%;
+	border-bottom: 3px solid #4285f4;
+}
+#search-options [active] a{
+	color: #4285f4;
+}
+
+#search-options li:hover{
+	border-radius: 5%;
+	border-bottom: 3px solid #4285f4;
+}
+#search-options a:hover{
+	color: #4285f4;
+}
+
+#search-options .container {
+	margin-left: 80px;
+}
+
+header {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+main {
+	min-height: 72vh;
+}
+/* TIming */
+#about-timing {
+	margin: 20px 0 10px 0;
+	color: gray;
+}
+
+/* Card */
+.card {
+	margin: 10px 0;
+	max-width: var(--search-size);
+}
+
+.card-url {
+	font-size: 14px;
+	color: black;
+	cursor: pointer;
+}
+
+.card-url-title{
+	font-size: 18px;
+	color: blue;	
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+.card-url-content {
+	font-size: 16px;
+	color: gray;
+	max-height: 50px;
+	overflow: hidden;
+}
